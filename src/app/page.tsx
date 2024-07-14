@@ -1,7 +1,7 @@
 "use client";
 import { useSortingAlgorithmContext } from "@/context/Visualizer";
 import React, { useEffect } from "react";
-import { Slider } from "@/components/input/slider";
+import { Slider } from "@/components/input/Slider";
 import { Select } from "@/components/input/Select";
 import { algorithmOptions, generateAnimationArray, sortingAlgorithmsData } from "@/lib/utils";
 import { SortingAlgorithmType } from "@/lib/types";

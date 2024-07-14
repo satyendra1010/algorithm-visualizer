@@ -1,3 +1,4 @@
+
 import { maxAnimationSpeed, minAnimationSpeed } from "@/lib/utils";
 
 export const Slider = ({
@@ -19,13 +20,13 @@ export const Slider = ({
     <div className="flex gap-2 items-center justify-center">
       <span className="text-center text-gray-300">Slow</span>
       <input
+        disabled={isDisabled}
         type="range"
         min={min}
         max={max}
         step={step}
         value={value}
-        onChange={handleChange}
-        disabled={isDisabled}
+        onChange={(e) => handleChange(e)}
         className="w-full h-2 rounded-lg appearance-none cursor-pointer bg-gray-700̦"
       />
       <span className="text-center text-gray-300">Fast</span>

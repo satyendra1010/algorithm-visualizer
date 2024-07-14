@@ -3,7 +3,7 @@ import { generateBubbleSortAnimationArray } from "@/algorithms/bubbleSort";
 import { generateInsertionSortAnimationArray } from "@/algorithms/insertionSort";
 import { generateMergeSortAnimationArray } from "@/algorithms/mergeSort";
 import { generateQuickSortAnimationArray } from "@/algorithms/quickSort";
-import { generateSelectionSortAnimationArray } from "@/algorithms/SelectionSort";
+import { generateSelectionSortAnimationArray } from "@/algorithms/selectionSort";
 
 export const minAnimationSpeed = 10;
 export const maxAnimationSpeed = 400;
